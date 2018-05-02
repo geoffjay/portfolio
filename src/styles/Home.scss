@@ -1,0 +1,61 @@
+@import 'colors.scss';
+
+:local(.home) {
+  position: relative;
+}
+
+:local(.label) {
+  color: theme-color('foreground');
+  position: absolute;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+  right: 20px;
+}
+
+:local(.boxBar) {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin: 0;
+}
+
+:local(.box1) {
+  width: 40px;
+  height: 40px;
+  background-color: theme-color('primary');
+}
+
+:local(.box2) {
+  width: 40px;
+  height: 40px;
+  background-color: theme-color('accent');
+}
+
+:local(.box3) {
+  width: 40px;
+  height: 40px;
+  background-color: theme-color('secondary');
+}
+
+:local(.box4) {
+  width: 40px;
+  height: 40px;
+  background-color: theme-color('background');
+}
+
+:local(.box5) {
+  width: 40px;
+  height: 40px;
+  background-color: theme-color('foreground');
+}
+
+:local(.left) {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  height: 100vh;
+  border-right: 2px solid theme-color('foreground', 'light');
+  width: 50vw;
+}

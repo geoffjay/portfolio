@@ -1,0 +1,9 @@
+@import 'colors.scss';
+
+:local(.project) {
+  position: relative;
+  margin: auto;
+  border: 2px solid theme-color('foreground', 'light');
+  width: 100%;
+  height: 100px;
+}
